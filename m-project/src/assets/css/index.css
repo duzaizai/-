@@ -1,0 +1,53 @@
+@import 'reset.css';
+@import 'icons.css';
+
+html {
+	background: #ddd;
+}
+html,body{
+	width:100%;
+}
+#app {
+	/* background: #eee; */
+	background: #fff;
+}
+.g-container{
+	position: relative;
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin:0 auto;
+}
+.g-view-container{
+	
+}
+.g-footer-container{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	box-shadow: 0 0 5px 0 rgba(50,0,0,.4);
+	min-width: 320px;
+	max-width: 640px;
+}
+.g-tabbar{
+	display: flex;
+	height: 50px;
+	background: #fff;
+	min-width: 320px;
+	max-width: 640px;
+	width: 100%;
+}
+.g-tabbar .item{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.g-tabbar .iconfont{
+	font-size:24px;
+	margin-bottom: 6px;
+}
+.router-link-active{
+	color:#900;
+}
